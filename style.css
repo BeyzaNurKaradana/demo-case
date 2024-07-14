@@ -2,7 +2,24 @@
     background-color:#84b736 ;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+
+/* Dropdown menüsünün gizli olması */
+.dropdown-menu {
+    display: none;
+  }
+  
+  /* Dropdown menüsüne hover yapıldığında gösterilmesi */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Arka plan rengi ve diğer stiller */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Dropdown arka plan rengi */
+  }
 
 
 
