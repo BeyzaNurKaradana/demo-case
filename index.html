@@ -130,156 +130,146 @@
   </navbar>
 
 
-  <header class="mt-4 border header-section">
+  <div class="border-top mt-4">
+    <div class="container-fluid  ms-5">
+      <div class="row">
+        <div class="col-2 d-flex justify-content-center align-items-center categories-browse">
+          <i class="bi bi-list "></i>
+          BROWSE CATEGORIES
+        </div>
+        <div class="col-10">
+          <div class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+              <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">PAGES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">ELEMENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">BUY</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0 ">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">ELEMENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">BUY</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <header class=" border header-section">
     <div class="container-fluid">
       <div class="row ">
-          <div class="col-3 col-md-3 col-xl-2 px-sm-2 px-0 sidebar">
-              <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100">
-                  <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
-                      <span class="fs-5 d-none d-sm-inline">Menu</span>
-                  </a>
-                  <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                      <li class="nav-item">
-                          <a href="#" class="nav-link align-middle px-0 text-black">
-                              <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-black">
-                              <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
-                          <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                              <li class="w-100">
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Item</span> 1 </a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Item</span> 2 </a>
-                              </li>
-                          </ul>
-                      </li>
-                      <li>
-                          <a href="#" class="nav-link px-0 align-middle text-black">
-                              <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
-                      </li>
-                      <li>
-                          <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-black">
-                              <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
-                          <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                              <li class="w-100">
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Item</span> 1</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Item</span> 2</a>
-                              </li>
-                          </ul>
-                      </li>
-                      <li>
-                          <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-black">
-                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
-                              <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                              <li class="w-100">
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Product</span> 1</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Product</span> 2</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Product</span> 3</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav-link px-0 text-black"> <span class="d-none d-sm-inline">Product</span> 4</a>
-                              </li>
-                          </ul>
-                      </li>
-                      <li>
-                          <a href="#" class="nav-link px-0 align-middle text-black">
-                              <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
-                      </li>
-                  </ul>
-                  <hr>
-                  <div class="dropdown pb-4">
-                      <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                          <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                          <span class="d-none d-sm-inline mx-1">loser</span>
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                          <li><a class="dropdown-item" href="#">New project...</a></li>
-                          <li><a class="dropdown-item" href="#">Settings</a></li>
-                          <li><a class="dropdown-item" href="#">Profile</a></li>
-                          <li>
-                              <hr class="dropdown-divider">
-                          </li>
-                          <li><a class="dropdown-item" href="#">Sign out</a></li>
-                      </ul>
+        <div class="col-3 col-md-3 col-xl-2 px-sm-2 px-0 sidebar ms-5">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100">
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link align-middle px-0 text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/chair-1.svg" alt="furniture" > <span class="ms-1 d-none d-sm-inline">Furniture</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link align-middle px-0 text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/knives-1.svg" alt="cooking" > <span class="ms-1 d-none d-sm-inline">Cooking</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/flower-1.svg" alt="accesories" > <span class="ms-1 d-none d-sm-inline">Accesories</span></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/003-shirt.svg" alt="fashion" > <span class="ms-1 d-none d-sm-inline">Fashion</span></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/clock-1.svg" alt="clocks"> <span class="ms-1 d-none d-sm-inline">Clocks</span></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/light-bulb-1.svg" alt="lighting" > <span class="ms-1 d-none d-sm-inline">Lighting</span> </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/rocking-horse-1.svg" alt="toys" > <span class="ms-1 d-none d-sm-inline">Toys</span> </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/biscuit.svg" alt="handmade" > <span class="ms-1 d-none d-sm-inline">Hand Made</span> </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/002-hand-bag.svg" alt="minimalism" > <span class="ms-1 d-none d-sm-inline">Minimalism</span> </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/004-game-console.svg" alt="electronics" > <span class="ms-1 d-none d-sm-inline">Electronics</span> </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle text-black">
+                  <img width="18" height="18" src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/break.svg" alt="cars"> <span class="ms-1 d-none d-sm-inline">Cars</span> </a>
+              </li>
+
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <div class=" col-9 py-3">
+
+
+
+          <section>
+            <div class="chair-section">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-4">
+                    <h1>Simple- Rock Chair</h1>
+                    <p>Semper vulputate aliquam curae condimentum quisque gravida fusce convallis arcu cum at.</p>
+                    <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/swatch-main-demo-11-38x38.jpg"
+                      alt="chair1">
+                    <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-2-38x38.jpg"
+                      alt="chair1">
+                    <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-3-38x38.jpg"
+                      alt="chair1">
+                    <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-4-38x38.jpg"
+                      alt="chair1">
+
                   </div>
+                  <div class="col-4">
+                    <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1.jpg.webp"
+                      alt="simpleRockChair">
+                  </div>
+                </div>
               </div>
-          </div>
-          <div class="col-9 py-3">
+            </div>
 
 
 
-              <section >
-                <div class="container">
-                  <div class="navbar navbar-expand-lg">
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                      <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">HOME</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">SHOP</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">BLOG</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">PAGES</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">ELEMENTS</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">BUY</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">ELEMENTS</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">BUY</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="chair-section">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-4">
-                        <h1>Simple- Rock Chair</h1>
-                        <p>Semper vulputate aliquam curae condimentum quisque gravida fusce convallis arcu cum at.</p>
-                        <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/swatch-main-demo-11-38x38.jpg" alt="chair1" >
-                        <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-2-38x38.jpg" alt="chair1" >
-                        <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-3-38x38.jpg" alt="chair1" >
-                        <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-4-38x38.jpg" alt="chair1" >
-  
-                      </div>
-                      <div class="col-4">
-                        <img src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1.jpg.webp" alt="simpleRockChair">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-
-              </section>
+          </section>
 
 
 
@@ -287,9 +277,9 @@
 
 
 
-          </div>
+        </div>
       </div>
-  </div>
+    </div>
   </header>
 
 
