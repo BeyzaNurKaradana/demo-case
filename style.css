@@ -6,20 +6,37 @@
 }
 
 
-/* Dropdown menüsünün gizli olması */
+
 .dropdown-menu {
     display: none;
   }
   
-  /* Dropdown menüsüne hover yapıldığında gösterilmesi */
+
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 
-  /* Arka plan rengi ve diğer stiller */
+
   .dropdown-menu {
-    background-color: #f8f9fa; /* Dropdown arka plan rengi */
+    background-color: #f8f9fa; 
   }
 
 
 
+
+ .input{
+   width: 600px;
+   height:45px ;
+ }
+
+ .category-button, .search-button{
+    height: 45px;
+    display: flex;
+    margin-top: 1.5rem;
+ }
+
+
+
+ 
+
+ 
