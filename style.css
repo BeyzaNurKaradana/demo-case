@@ -2,6 +2,7 @@
   background-color: #84b736;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
 }
 
 .dropdown-menu {
@@ -55,3 +56,18 @@
   justify-content: center;
   align-items: center;
 }
+
+ @media (max-width:1025px){
+  .nav-first-col, .nav-second-col-list{
+    display: none;
+  }
+  .deneme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+  }
+  
+} 
