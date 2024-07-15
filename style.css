@@ -1,72 +1,57 @@
-.nav-section{
-    background-color:#84b736 ;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.nav-section {
+  background-color: #84b736;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .dropdown-menu {
-    display: none;
-  }
-  
-
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-
-
-  .dropdown-menu {
-    background-color: #f8f9fa; 
-  }
-
-
-
-
- .input{
-   width: 600px;
-   height:45px ;
- }
-
- .category-button, .search-button{
-    height: 45px;
-    display: flex;
-    margin-top: 1.5rem;
- }
-
-
-.header-section{
-    background-color: #f8f8f8;
+  display: none;
 }
 
-.sidebar{
-    background-color: white;
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
-
-.categories-browse{
-    background-color:#84b736 ;
-    color: white;
-
+.dropdown-menu {
+  background-color: #f8f9fa;
 }
 
-.categories-browse i{
+.input {
+  width: 600px;
+  height: 45px;
+}
+
+.category-button,
+.search-button {
+  height: 45px;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.header-section {
+  background-color: #f8f8f8;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.categories-browse {
+  background-color: #84b736;
+  color: white;
+}
+
+.categories-browse i {
   font-size: 1.5rem;
-
 }
 
-/* @media (max-width: 1025px)  {
-    
-  } */
+.custom-button {
+  font-size: 12px !important;
+}
 
-  .custom-button {
-    font-size: 12px !important;
-  }
-
-
-
-
-
-
- 
+.nav-discount {
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+}
