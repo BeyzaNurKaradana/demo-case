@@ -149,7 +149,20 @@ nav li:hover .menu-sub{
   .menu-sub ul{
     opacity: 0.75;
   }
- 
+
+  .blog-background{
+    background-color: #f8f8f8;
+  }
+
+.post-images{
+    width: 80px;
+    height: 80px;
+
+  }
+
+  .blog-background a:hover{
+    color: #6f6e6e;
+  }
 
 
 
