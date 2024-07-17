@@ -110,8 +110,7 @@ nav li a:hover {
 .menu-sub{
   position: absolute;
   background: rgb(199, 97, 97);
-  width: 100%;
-
+  width: 80%;
   display: none;
 }
 
@@ -162,6 +161,10 @@ nav li:hover .menu-sub{
 
   .blog-background a:hover{
     color: #6f6e6e;
+  }
+
+  .menu-main li i{
+    font-size: 8px;
   }
 
 
