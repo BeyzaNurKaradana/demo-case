@@ -111,6 +111,7 @@ nav li a:hover {
   position: absolute;
   background: rgb(199, 97, 97);
   width: 100%;
+
   display: none;
 }
 
@@ -141,6 +142,14 @@ nav li:hover .menu-sub{
      width: 100%; 
 
   }
+
+  .menu-sub a{
+    padding: 5px;
+  }
+  .menu-sub ul{
+    opacity: 0.75;
+  }
+ 
 
 
 
