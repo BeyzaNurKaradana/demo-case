@@ -216,7 +216,7 @@ nav li:hover .menu-sub{
   width: 1000px; /* Adjust width as needed */
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 0px 20px;
   z-index: 1000;
 }
 
@@ -236,7 +236,8 @@ nav li:hover .menu-sub{
 }
 
 .mega-menu ul li {
-  padding: 5px 0;
+
+  padding-top: 10px;
 }
 
 .mega-menu ul li a {
@@ -264,5 +265,30 @@ nav li:hover .menu-sub{
 }
 
 
+.brand-background{
+  background-color: #f8f8f8;
+  padding: 0 !important;
+}
 
+
+.accesories-background{
+  background-color: #f8f8f8;
+
+}
+
+
+.accesories-background a:hover{
+  color: #6f6e6e;
+}
+
+.price{
+  color: #84b736;
+  font-weight: 600;
+}
+
+
+.discount-price{
+  color: #b0aeae;
+  margin-right: 2px;
+}
 
