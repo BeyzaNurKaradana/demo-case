@@ -110,7 +110,7 @@ nav li a:hover {
 .menu-sub{
   position: absolute;
   background: rgb(199, 97, 97);
-  width: 80%;
+  width: 100%;
   display: none;
 }
 
@@ -128,12 +128,13 @@ nav li:hover .menu-sub{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-height: 100vh;
   }
   
   .menu-sub-list li {
     width: calc(20% - 10px); 
     text-align: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
   
   .menu-sub-list img {
@@ -145,6 +146,14 @@ nav li:hover .menu-sub{
   .menu-sub a{
     padding: 5px;
   }
+
+  .menu-sub {
+    z-index: 1000;
+  }
+  .menu-sub-list p{
+    color: black;
+  }
+
   .menu-sub ul{
     opacity: 0.75;
   }
