@@ -143,6 +143,11 @@ nav li:hover .menu-sub{
 
   }
 
+  .menu-sub-list img{
+    width: 190px;
+    height: 200px;
+  }
+
   .menu-sub a{
     padding: 5px;
   }
@@ -167,6 +172,7 @@ nav li:hover .menu-sub{
     height: 80px;
 
   }
+ 
 
   .blog-background a:hover{
     color: #6f6e6e;
