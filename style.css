@@ -40,7 +40,9 @@
 
 .categories-browse {
   background-color: #84b736;
-  color: white;
+  color: white !important;
+
+
 }
 
 .categories-browse i {
@@ -69,6 +71,8 @@
   font-size: 54px;
 
 }
+
+
 
 .price{
   color: #84b736;
